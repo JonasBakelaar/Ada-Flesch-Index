@@ -1,0 +1,177 @@
+V "GNAT Lib v6"
+M P W=b
+P SS ZX
+
+RN
+RV NO_DIRECT_BOOLEAN_OPERATORS
+RV NO_EXCEPTION_HANDLERS
+RV NO_EXCEPTIONS
+RV NO_FLOATING_POINT
+RV NO_IO
+RV NO_NESTED_FINALIZATION
+RV NO_SECONDARY_STACK
+RV NO_DEFAULT_INITIALIZATION
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV SPARK_05
+
+U fleschindex%b		fleschindex.adb		54b3ac2c NE OO SU IL
+W ada%s			ada.ads			ada.ali
+W ada.characters%s	a-charac.ads		a-charac.ali
+W ada.characters.handling%s  a-chahan.adb	a-chahan.ali
+W ada.exceptions%s	a-except.adb		a-except.ali
+W ada.float_text_io%s	a-flteio.ads		a-flteio.ali
+W ada.integer_text_io%s	a-inteio.ads		a-inteio.ali
+W ada.strings%s		a-string.ads		a-string.ali
+W ada.strings.unbounded%s  a-strunb.adb		a-strunb.ali
+W ada.strings.unbounded.text_io%s  a-suteio.adb	a-suteio.ali
+W ada.tags%s		a-tags.adb		a-tags.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+W system.concat_2%s	s-conca2.adb		s-conca2.ali
+W system.concat_3%s	s-conca3.adb		s-conca3.ali
+W system.concat_9%s	s-conca9.adb		s-conca9.ali
+W system.img_int%s	s-imgint.adb		s-imgint.ali
+W system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+W system.soft_links%s	s-soflin.adb		s-soflin.ali
+W system.standard_library%s  s-stalib.adb	s-stalib.ali
+
+D ada.ads		20070406091342 3ffc8e18 ada%s
+D a-charac.ads		20070912115821 2d3ec45b ada.characters%s
+D a-chahan.ads		20140611123156 1601a50f ada.characters.handling%s
+D a-chlat1.ads		20140225151544 66457d31 ada.characters.latin_1%s
+D a-except.ads		20151016123252 291912d5 ada.exceptions%s
+D a-finali.ads		20151020095656 bf4f806b ada.finalization%s
+D a-flteio.ads		20070406091342 e18a47a0 ada.float_text_io%s
+D a-inteio.ads		20070406091342 f64b89a4 ada.integer_text_io%s
+D a-ioexce.ads		20140225151544 e4a01f64 ada.io_exceptions%s
+D a-stream.ads		20141120112812 119b8fb3 ada.streams%s
+D a-string.ads		20070406091342 90ac6797 ada.strings%s
+D a-strmap.ads		20140611123156 e8bb714a ada.strings.maps%s
+D a-strunb.ads		20140717072738 3f91d4c5 ada.strings.unbounded%s
+D a-suteio.ads		20090409150019 26d8e9aa ada.strings.unbounded.text_io%s
+D a-tags.ads		20151016130316 01f5e3ef ada.tags%s
+D a-textio.ads		20140717063745 386df5d4 ada.text_io%s
+D a-tiflio.ads		20140717063513 56fbda09 ada.text_io.float_io%s
+D a-tiinio.ads		20140717063513 aa04e5d6 ada.text_io.integer_io%s
+D a-unccon.ads		20070406091342 f9eb8f06 ada.unchecked_conversion%s
+D fleschindex.adb	20180404201108 74570f9c fleschindex%b
+D interfac.ads		20151118101227 4be8ce1b interfaces%s
+D i-cstrea.ads		20140801100435 e53d8b8e interfaces.c_streams%s
+D system.ads		20151123113124 6326c08a system%s
+D s-atocou.ads		20151020101020 b45c2d8d system.atomic_counters%s
+D s-conca2.ads		20140225151544 02a0d7d0 system.concat_2%s
+D s-conca3.ads		20140225151544 0b705ca5 system.concat_3%s
+D s-conca9.ads		20140225151544 dc4a3424 system.concat_9%s
+D s-crtl.ads		20141120112812 0ebbdb71 system.crtl%s
+D s-exctab.ads		20140225151139 54135002 system.exception_table%s
+D s-ficobl.ads		20140718105747 078245e4 system.file_control_block%s
+D s-finmas.ads		20151016130316 7811a767 system.finalization_masters%s
+D s-finroo.ads		20120426095924 4ff27390 system.finalization_root%s
+D s-imgint.ads		20090409150019 02dbe0c2 system.img_int%s
+D s-memory.ads		20140225151139 597d6634 system.memory%s
+D s-parame.ads		20140801093848 7e2a0d7f system.parameters%s
+D s-secsta.ads		20140225151139 86a2856d system.secondary_stack%s
+D s-soflin.ads		20151020124036 14e1eb6c system.soft_links%s
+D s-stache.ads		20140225151139 a37c21ec system.stack_checking%s
+D s-stalib.ads		20151112104907 09bd3940 system.standard_library%s
+D s-stalib.adb		20140225151139 f2fe2716 system.standard_library%b
+D s-stoele.ads		20140225151139 2dc34a04 system.storage_elements%s
+D s-stopoo.ads		20131010103753 b16154c2 system.storage_pools%s
+D s-stposu.ads		20151020120548 97a6219c system.storage_pools.subpools%s
+D s-stratt.ads		20131014135145 aedef97e system.stream_attributes%s
+D s-traent.ads		20140730135025 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20140731130224 9d58a4c0 system.unsigned_types%s
+D s-wchcon.ads		20140718092328 1b7d22d2 system.wch_con%s
+X 1 ada.ads
+16K9*Ada 19e8 20|8r6 8r23 9r6 9r31 10r6 10r33 11r6 11r41 12r6 12r35 13r6
+. 13r29
+X 2 a-charac.ads
+16K13*Characters 18e19 20|12r10 12r39
+X 3 a-chahan.ads
+36K24*Handling 159e28 20|12w21 12r50
+X 7 a-flteio.ads
+20K13*Float_Text_IO[17|46] 20|13w10 13r33
+X 8 a-inteio.ads
+18K13*Integer_Text_IO[18|46] 20|9w10 9r35
+X 11 a-string.ads
+16K13*Strings 35e16 20|10r10 10r37 11r10 11r45
+X 13 a-strunb.ads
+76K21*Unbounded 489e26 20|10w18 10r45 11r18 11r53
+79R9*Unbounded_String<6|43R9> 473e14 20|15r15 16r11 24r44 33r72 47r66 104r64
+. 143r37 145r16
+84V13*Length{natural} 20|37s25 53s25 108s25
+100V13*To_String{string} 20|147s29
+139V13*Element{character} 20|39s16 39s42 39s68 39s94 39s120 55s16 55s42 55s68
+. 55s94 55s120 55s146 74s24 74s50 75s27 75s53 76s27 76s53 77s27 77s53 78s27
+. 78s53 79s27 79s53 83s29 83s55 85s29 85s57 86s32 86s60 87s32 87s60 87s88
+. 87s116 87s144 87s172 89s35 89s63 90s38 90s66 91s38 91s66 92s38 92s66 93s38
+. 93s66 94s38 94s66 111s20 111s47 114s23 114s52 114s80 114s108 114s136 114s164
+X 14 a-suteio.ads
+39K31*Text_IO 61e34 20|11w28 11r63
+47U14*Get_Line 20|151s13
+50U14*Get_Line 20|29s9
+X 16 a-textio.ads
+49K13*Text_IO 471e16 20|8w10 8r27
+52P9*File_Type 20|144r16
+53n23*In_File{53E9} 20|147r20
+92U14*Open 20|147s9
+98U14*Close 20|157s9
+183V13*End_Of_File{boolean} 20|149s23
+263U14*Put_Line 20|28s9 62s21 138s9 159s9 160s9 161s9 162s9
+X 20 fleschindex.adb
+14U11*fleschindex 14b11 173l5 173t16
+15r5 fileName{13|79R9} 168m17 168r17 171r14
+16r5 line{13|79R9}
+17i5 sentenceCount{integer} 152m30 152r30 158m30 158r30 159r53
+18i5 vowelCount{integer} 153m27 153r27 158m45 158r45 160r53
+19i5 wordCount{integer} 154m26 154r26 158m57 158r57 161r49
+20f5 fleschIndexFinal{float} 158m68 158r68 162r58
+21f5 wordDivSentence{float} 136m9 139r51
+22f5 vowelDivWord{float} 137m9 139r80
+24U15 getFileName 24b15 24=27 31l9 31t20 168s5
+24r27 fileName{13|79R9} 29m18
+33U15 getSentenceCount 33b15 33=32 33>63 45l9 45t25 152s13
+33i32 sentenceCount{integer} 40m17 40r34
+33r63 line{13|79R9} 37r32 39r24 39r50 39r76 39r102 39r128
+34i9 stringLength{integer} 37m9 43r27
+35i9 i{integer} 39r30 39r56 39r82 39r108 39r134 42m13 42r18 43r23
+47U15 getVowelCount 47b15 47=29 47>57 102l9 102t22 153s13
+47i29 vowelCount{integer} 59m21 59r35 62r45 64m25 64r39 66m25 66r39
+47r57 line{13|79R9} 53r32 55r24 55r50 55r76 55r102 55r128 55r154 74r32 74r58
+. 75r35 75r61 76r35 76r61 77r35 77r61 78r35 78r61 79r35 79r61 83r37 83r63
+. 85r37 85r65 86r40 86r68 87r40 87r68 87r96 87r124 87r152 87r180 89r43 89r71
+. 90r46 90r74 91r46 91r74 92r46 92r74 93r46 93r74 94r46 94r74
+48i9 stringLength{integer} 53m9 55r179 81r34 100r27
+49i9 i{integer} 55r30 55r56 55r82 55r108 55r134 55r160 55r173 74r38 74r64
+. 75r41 75r67 76r41 76r67 77r41 77r67 78r41 78r67 79r41 79r67 81r27 83r43
+. 83r69 85r43 85r71 86r46 86r74 87r46 87r74 87r102 87r130 87r158 87r186 89r49
+. 89r77 90r52 90r80 91r52 91r80 92r52 92r80 93r52 93r80 94r52 94r80 99m13
+. 99r18 100r23
+50i9 letterCount{integer} 57r20 69m17 72m17 72r32
+51i9 vowelTempCount{integer} 62r81 63r24 66r52 70m17 80m24 80r42 88m33 88r51
+. 95m35 95r53
+104U15 getWordCount 104b15 104=28 104>55 122l9 122t21 154s13
+104i28 wordCount{integer} 113m21 113r34 116m21 116r34
+104r55 line{13|79R9} 108r32 111r28 111r55 114r31 114r60 114r88 114r116 114r144
+. 114r172
+105i9 stringLength{integer} 108m9 110r23 120r27
+106i9 i{integer} 110r16 111r34 111r61 114r37 114r66 114r94 114r122 114r150
+. 114r178 119m13 119r18 120r23
+124U15 calculateFleschIndex 124b15 124=36 124=67 124=95 124=122 141l9 141t29
+. 158s9
+124i36 sentenceCount{integer} 127r12 128m13 136r52 138r91
+124i67 vowelCount{integer} 129r15 130m13 137r32 138r139
+124i95 wordCount{integer} 131r15 132m13 136r35 137r50 138r58 138r171
+124f122 fleschIndexFinal{float} 139m9
+143U15 readFile 143b15 143>24 163l9 163t17 171s5
+143r24 fileName{13|79R9} 147r39
+144p9 infp{16|52P9} 147m14 147r14 149r35 151r22 157m15 157r15
+145r9 line{13|79R9} 151m27 152r44 153r39 154r37
+X 23 system.ads
+67M9*Address
+X 34 s-memory.ads
+53V13*Alloc{23|67M9} 103i<c,__gnat_malloc>22
+68U14*Free 104i<c,__gnat_free>22
+76V13*Realloc{23|67M9} 105i<c,__gnat_realloc>22
+X 40 s-stalib.adb
+93U14 Break_Start 94i<c,__gnat_break_start>22
+
