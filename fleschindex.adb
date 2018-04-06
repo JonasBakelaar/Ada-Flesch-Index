@@ -47,58 +47,77 @@ procedure fleschindex is
     procedure getVowelCount(vowelCount: in out integer; line: in unbounded_string) is
         stringLength: integer := 0;
         i: integer := 1;
+        j: integer := 1;
         letterCount: integer := 0;
         vowelTempCount: integer := 0;
+        vowelFlag: integer := -1;
     begin
         stringLength := length(line);
+        --set the vowel count to at least one per word
         loop
-            if(Element(line, i) = ' ' or Element(line, i) = '.' or Element(line, i) = ';' or Element(line, i) = '?' or Element(line, i) = '!' or Element(line, i) = ':' or (i+1 > stringLength)) then
-                -- Takes into account words with more than one vowel of 3 or less letters in length
-                if(letterCount <= 3) then
-                    --Only add 1 syllable for 3 letter words
+            if(i+1 <= stringLength) then
+                if(Element(line, i) = ' ' and Element(line, i+1) /= ' ') then
+                    -- If there's a space and no space immediately after, add 1 to wordCount
                     vowelCount := vowelCount + 1;
-                else
-                    -- Add the totals from the loop
-                    put_line( integer'image(vowelCount) & " + " & integer'image(vowelTempCount));
-                    if(vowelTempCount <= 0) then
-                        vowelCount := vowelCount + 1;
-                    else 
-                        vowelCount := vowelCount + vowelTempCount;
-                    end if;
+                elsif(Element(line, i) /= ' ' and (Element(line, i+1) = '.' or Element(line, i+1) = ';' or Element(line, i+1) = '?' or Element(line, i+1) = '!' or Element(line, i+1) = ':'  or (i+2 > stringLength))) then
+                    -- If it's the end of a sentence, add to word count
+                    vowelCount := vowelCount + 1;
                 end if;
-                letterCount := 0;
-                vowelTempCount := 0;
-            else
-                letterCount := letterCount + 1;
             end if;
-	            if(Element(line, i) = 'a' or Element(line, i) = 'A'
-	               or Element(line, i) = 'e' or Element(line, i) = 'E' 
-	               or Element(line, i) = 'i' or Element(line, i) = 'I'
-	               or Element(line, i) = 'o' or Element(line, i) = 'O'
-	               or Element(line, i) = 'u' or Element(line, i) = 'U'
-	               or Element(line, i) = 'y' or Element(line, i) = 'Y') then
-	               vowelTempCount := vowelTempCount + 1;
-	               if(i+1 <= stringLength) then
-	                   if(
-	                   (Element(line, i) = 'e' or Element(line, i) = 'E')
-	                    and 
-	                   (Element(line, i+1) = 's' or Element(line, i+1) = 'S'
-	                    or Element(line, i+1) = 'd' or Element(line, i+1) = 'D'
-	                    or Element(line, i+1) = ' ' or Element(line, i+1) = '.' or Element(line, i+1) = ';' or Element(line, i+1) = '?' or Element(line, i+1) = '!' or Element(line, i+1) = ':') ) then
-	                        vowelTempCount := vowelTempCount - 1;
-	                   elsif (Element(line, i+1) = 'a' or Element(line, i+1) = 'A'
-	                          or Element(line, i+1) = 'e' or Element(line, i+1) = 'E' 
-	                          or Element(line, i+1) = 'i' or Element(line, i+1) = 'I'
-	                          or Element(line, i+1) = 'o' or Element(line, i+1) = 'O'
-	                          or Element(line, i+1) = 'u' or Element(line, i+1) = 'U'
-	                          or Element(line, i+1) = 'y' or Element(line, i+1) = 'Y') then
-	                          vowelTempCount := vowelTempCount - 1;
-	                   end if;
-	               end if;
-	            end if;
             i := i + 1;
             exit when i = stringLength+1;
         end loop;
+        
+        --Reset i, another loop to find extra syllables
+        i := 1;
+        loop
+            put_line("i value: " & integer'image(i));
+            if(i+1 <= stringLength) then
+	            if (Element(line, i) = ' ') then
+	                j := i + 1;
+	                loop
+	                    if(j+1 <= stringLength) then
+		                    if (Element(line, j) = 'a' or Element(line, j) = 'A'
+			                 or Element(line, j) = 'e' or Element(line, j) = 'E' 
+			                 or Element(line, j) = 'i' or Element(line, j) = 'I'
+			                 or Element(line, j) = 'o' or Element(line, j) = 'O'
+			                 or Element(line, j) = 'u' or Element(line, j) = 'U'
+			                 or Element(line, j) = 'y' or Element(line, j) = 'Y') then
+			                    if(
+			                     (Element(line, j) = 'e' or Element(line, j) = 'E')
+			                     and 
+			                     (Element(line, j+1) = ',' or Element(line, j+1) = ' ' or Element(line, j+1) = '.' or Element(line, j+1) = ';' or Element(line, j+1) = '?' or Element(line, j+1) = '!' or Element(line, j+1) = ':'  or (j+1 > stringLength))) then
+			                        --Do nothing
+			                        i := i;
+			                    elsif(Element(line, j+1) = 'a' or Element(line, j+1) = 'A'
+			                     or Element(line, j+1) = 'e' or Element(line, j+1) = 'E' 
+			                     or Element(line, j+1) = 'i' or Element(line, j+1) = 'I'
+			                     or Element(line, j+1) = 'o' or Element(line, j+1) = 'O'
+			                     or Element(line, j+1) = 'u' or Element(line, j+1) = 'U'
+			                     or Element(line, j+1) = 'y' or Element(line, j+1) = 'Y') then
+			                        --Do nothing
+			                        i := i;
+			                    else
+			                        --Can add to the vowel count
+		                            vowelFlag := vowelFlag + 1;
+		                        end if;
+		                    end if;
+	                    end if;
+	                    j := j + 1;
+	                    exit when Element(line, j) = ' ' or j+1 > stringLength;
+	                end loop;
+	            end if;
+	            
+	            --If the vowel flag is greater than 0, add the new vowels to the count
+	            if(vowelFlag > 0) then
+	                vowelCount := vowelCount + vowelFlag;
+	            end if;
+	            vowelFlag := -1;
+	        end if;
+	        i := i+1;
+            exit when i > stringLength+1;
+        end loop;
+        
     end getVowelCount;
     
     procedure getWordCount(wordCount: in out integer; line: in unbounded_string) is
@@ -111,7 +130,7 @@ procedure fleschindex is
                 if(Element(line, i) = ' ' and Element(line, i+1) /= ' ') then
                     -- If there's a space and no space immediately after, add 1 to wordCount
                     wordCount := wordCount + 1;
-                elsif(Element(line, i) /= ' ' and (Element(line, i+1) = '.' or Element(line, i+1) = ';' or Element(line, i+1) = '?' or Element(line, i+1) = '!' or Element(line, i+1) = ':')) then
+                elsif(Element(line, i) /= ' ' and (Element(line, i+1) = '.' or Element(line, i+1) = ';' or Element(line, i+1) = '?' or Element(line, i+1) = '!' or Element(line, i+1) = ':'  or (i+2 > stringLength))) then
                     -- If it's the end of a sentence, add to word count
                     wordCount := wordCount + 1;
                 end if;
