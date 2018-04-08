@@ -1,0 +1,495 @@
+Input file name
+Character: i
+Do nothing is false!
+Character: s
+Exited loop
+Character: t
+Character: h
+Character: e
+Exited loop
+Character: s
+Character: e
+Character: a
+Do nothing is false!
+Character: s
+Character: o
+Do nothing is false!
+Character: n
+Exited loop
+Added  1 syllable(s) to base syllable count with final letter n
+Character: w
+Character: e
+Exited loop
+Character: p
+Character: r
+Character: o
+Do nothing is false!
+Character: f
+Character: e
+Do nothing is false!
+Character: s
+Character: s
+Exited loop
+Added  1 syllable(s) to base syllable count with final letter s
+Character: t
+Character: o
+Do nothing is false!
+Exited loop
+Character: d
+Character: r
+Character: e
+Character: a
+Do nothing is false!
+Character: d
+Exited loop
+Character: W
+Character: e
+Exited loop
+Character: t
+Character: h
+Character: i
+Do nothing is false!
+Character: n
+Character: k
+Exited loop
+Character: g
+Character: r
+Character: a
+Character: y
+Do nothing is false!
+Exited loop
+Character: s
+Character: k
+Character: i
+Character: e
+Do nothing is false!
+Exited loop
+Syllable count: 15
+Character: b
+Character: r
+Character: o
+Do nothing is false!
+Character: w
+Character: n
+Exited loop
+Character: f
+Character: o
+Character: o
+Do nothing is false!
+Character: d
+Exited loop
+Character: B
+Character: u
+Do nothing is false!
+Character: t
+Exited loop
+Character: i
+Do nothing is false!
+Character: t
+Character: '
+Character: s
+Exited loop
+Character: n
+Character: o
+Do nothing is false!
+Character: t
+Exited loop
+Character: t
+Character: r
+Character: u
+Character: e
+Exited loop
+Character: F
+Character: r
+Character: u
+Character: i
+Do nothing is false!
+Character: t
+Exited loop
+Character: a
+Do nothing is false!
+Character: n
+Character: d
+Exited loop
+Character: v
+Character: e
+Do nothing is false!
+Character: g
+Character: e
+Do nothing is false!
+Character: t
+Character: a
+Do nothing is false!
+Character: b
+Character: l
+Character: e
+Do nothing is false!
+Exited loop
+Added  3 syllable(s) to base syllable count with final letter e
+Character: c
+Character: o
+Character: u
+Do nothing is false!
+Character: n
+Character: t
+Character: e
+Do nothing is false!
+Character: r
+Exited loop
+Added  1 syllable(s) to base syllable count with final letter r
+Syllable count: 32
+Character: s
+Character: p
+Character: l
+Character: a
+Do nothing is false!
+Character: t
+Character: t
+Character: e
+Do nothing is false!
+Character: r
+Character: e
+Character: d
+Exited loop
+Added  1 syllable(s) to base syllable count with final letter d
+Character: w
+Character: i
+Do nothing is false!
+Character: t
+Character: h
+Exited loop
+Character: c
+Character: o
+Do nothing is false!
+Character: l
+Character: o
+Character: u
+Do nothing is false!
+Character: r
+Exited loop
+Added  1 syllable(s) to base syllable count with final letter r
+Character: g
+Character: l
+Character: o
+Do nothing is false!
+Character: w
+Character: i
+Do nothing is false!
+Character: n
+Character: g
+Exited loop
+Added  1 syllable(s) to base syllable count with final letter g
+Character: p
+Character: e
+Do nothing is false!
+Character: r
+Character: s
+Character: i
+Do nothing is false!
+Character: m
+Character: m
+Character: o
+Do nothing is false!
+Character: n
+Character: s
+Exited loop
+Added  2 syllable(s) to base syllable count with final letter s
+Character: m
+Character: a
+Do nothing is false!
+Character: n
+Character: d
+Character: a
+Do nothing is false!
+Character: r
+Character: i
+Do nothing is false!
+Character: n
+Character: s
+Exited loop
+Added  2 syllable(s) to base syllable count with final letter s
+Character: a
+Do nothing is false!
+Character: n
+Character: d
+Exited loop
+Character: c
+Character: l
+Character: e
+Do nothing is false!
+Character: m
+Character: e
+Do nothing is false!
+Character: n
+Character: t
+Character: i
+Do nothing is false!
+Character: n
+Character: e
+Character: s
+Exited loop
+Added  2 syllable(s) to base syllable count with final letter s
+Syllable count: 51
+Character: c
+Character: a
+Do nothing is false!
+Character: n
+Character: d
+Character: y
+Do nothing is false!
+Character: -
+Character: p
+Character: i
+Do nothing is false!
+Character: n
+Character: k
+Exited loop
+Added  2 syllable(s) to base syllable count with final letter k
+Character: e
+Character: a
+Do nothing is false!
+Character: r
+Character: l
+Character: y
+Do nothing is false!
+Exited loop
+Added  1 syllable(s) to base syllable count with final letter y
+Character: r
+Character: h
+Character: u
+Do nothing is false!
+Character: b
+Character: a
+Do nothing is false!
+Character: r
+Character: b
+Exited loop
+Added  1 syllable(s) to base syllable count with final letter b
+Character: C
+Character: o
+Do nothing is false!
+Character: l
+Character: d
+Exited loop
+Character: w
+Character: e
+Character: a
+Do nothing is false!
+Character: t
+Character: h
+Character: e
+Do nothing is false!
+Character: r
+Exited loop
+Added  1 syllable(s) to base syllable count with final letter r
+Character: m
+Character: a
+Do nothing is false!
+Character: k
+Character: e
+Character: s
+Exited loop
+Character: u
+Do nothing is false!
+Character: s
+Exited loop
+Character: c
+Character: r
+Character: a
+Do nothing is false!
+Character: v
+Character: e
+Exited loop
+Character: i
+Do nothing is false!
+Character: n
+Character: t
+Character: e
+Do nothing is false!
+Character: r
+Character: n
+Character: a
+Do nothing is false!
+Exited loop
+Added  2 syllable(s) to base syllable count with final letter a
+Syllable count: 69
+Character: h
+Character: e
+Character: a
+Do nothing is false!
+Character: t
+Character: i
+Do nothing is false!
+Character: n
+Character: g
+Exited loop
+Added  1 syllable(s) to base syllable count with final letter g
+Character: a
+Do nothing is false!
+Character: n
+Character: d
+Exited loop
+Character: w
+Character: e
+Exited loop
+Character: w
+Character: a
+Do nothing is false!
+Character: n
+Character: t
+Exited loop
+Character: p
+Character: s
+Character: y
+Do nothing is false!
+Character: c
+Character: h
+Character: o
+Do nothing is false!
+Character: l
+Character: o
+Do nothing is false!
+Character: g
+Character: i
+Do nothing is false!
+Character: c
+Character: a
+Do nothing is false!
+Character: l
+Exited loop
+Added  4 syllable(s) to base syllable count with final letter l
+Character: s
+Character: u
+Do nothing is false!
+Character: c
+Character: c
+Character: o
+Character: u
+Do nothing is false!
+Character: r
+Exited loop
+Added  1 syllable(s) to base syllable count with final letter r
+Character: t
+Character: o
+Character: o
+Do nothing is false!
+Exited loop
+Character: s
+Character: o
+Do nothing is false!
+Exited loop
+Character: o
+Character: u
+Do nothing is false!
+Exited loop
+Syllable count: 85
+Character: b
+Character: e
+Do nothing is false!
+Character: c
+Character: o
+Do nothing is false!
+Character: m
+Character: e
+Exited loop
+Added  1 syllable(s) to base syllable count with final letter e
+Character: c
+Character: o
+Do nothing is false!
+Character: n
+Character: s
+Character: e
+Do nothing is false!
+Character: r
+Character: v
+Character: a
+Do nothing is false!
+Character: t
+Character: i
+Do nothing is false!
+Character: v
+Character: e
+Exited loop
+Added  3 syllable(s) to base syllable count with final letter e
+Character: A
+Do nothing is false!
+Character: l
+Character: t
+Character: h
+Character: o
+Character: u
+Do nothing is false!
+Character: g
+Character: h
+Exited loop
+Added  1 syllable(s) to base syllable count with final letter h
+Character: i
+Do nothing is false!
+Character: t
+Character: '
+Character: s
+Exited loop
+Character: a
+Do nothing is false!
+Exited loop
+Character: f
+Character: a
+Do nothing is false!
+Character: n
+Character: t
+Character: a
+Do nothing is false!
+Character: s
+Character: y
+Do nothing is false!
+Exited loop
+Added  2 syllable(s) to base syllable count with final letter y
+Character: w
+Character: e
+Exited loop
+Character: f
+Character: e
+Character: e
+Do nothing is false!
+Character: l
+Exited loop
+Character: w
+Character: e
+Exited loop
+Character: n
+Character: e
+Character: e
+Do nothing is false!
+Exited loop
+Syllable count: 104
+Character: e
+Character: a
+Do nothing is false!
+Character: t
+Exited loop
+Character: f
+Character: o
+Do nothing is false!
+Character: r
+Exited loop
+Character: s
+Character: u
+Do nothing is false!
+Character: r
+Character: v
+Character: i
+Do nothing is false!
+Character: v
+Character: a
+Do nothing is false!
+Character: l
+Exited loop
+Added  2 syllable(s) to base syllable count with final letter l
+Syllable count: 110
+206.835 - ((1.015 * ( 67/ 7)) + (84.6 * ( 110/ 67))
+Sentence Count:  7
+Syllable Count:  110
+Word count:  67
+FleschIndex:  58
+Flesch Kincaid Level: ((0.39*( 67/ 7)+(11.8*( 110/ 67)))-15.59)
+ 7.52
