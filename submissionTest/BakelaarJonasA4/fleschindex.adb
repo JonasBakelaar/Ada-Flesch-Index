@@ -4,7 +4,6 @@
 -- Sources: I used the algorithm at this link: http://www.csc.villanova.edu/~mdamian/Past/csc3990fa08/papers/nlp/talburt_1986.pdf 
 --          This algorithm helped set a base for how to count syllables, words and sentences. It also provided a base code/algorithm for how to determine the 
 --          flesch index of a particular passage.
---          Additionally, code for checking to ensure a file existed/could be opened was inspired from this link: https://rosettacode.org/wiki/Check_that_file_exists#Ada
 
 with Ada.Text_IO; use Ada.Text_IO;
 with ada.Integer_Text_IO; use Ada.Integer_Text_IO;
@@ -31,17 +30,6 @@ procedure fleschIndex is
         get_line(fileName);
     
     end getFileName;
-    
-    function checkFileExists (fileName : unbounded_string) return boolean is
-      The_File : Ada.Text_IO.File_Type;
-    begin
-      Open (The_File, In_File, to_String(fileName));
-      Close (The_File);
-      return True;
-    exception
-        when Name_Error =>
-            return False;
-    end checkFileExists;
     
     procedure getSentenceCount(sentenceCount: in out integer; line: in unbounded_string) is
         stringLength: integer := 0;
@@ -259,11 +247,7 @@ begin
         -- If user enters "Q", quit the program
         exit when fileName = "Q";
         
-        if(checkFileExists(fileName) = false) then
-            put_line("File could not be opened!");
-        else
-         -- Call the main program functionality which reads the file and determines the Flesch Index and Flesch Kincaid Level.
-            readFile(fileName);
-        end if;
+        -- Call the main program functionality which reads the file and determines the Flesch Index and Flesch Kincaid Level.
+        readFile(fileName);
     end loop;
 end fleschIndex;

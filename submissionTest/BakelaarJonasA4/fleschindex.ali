@@ -1,0 +1,198 @@
+V "GNAT Lib v6"
+M P W=b
+P SS ZX
+
+RN
+RV NO_DIRECT_BOOLEAN_OPERATORS
+RV NO_EXCEPTION_HANDLERS
+RV NO_EXCEPTIONS
+RV NO_FLOATING_POINT
+RV NO_IO
+RV NO_NESTED_FINALIZATION
+RV NO_SECONDARY_STACK
+RV NO_DEFAULT_INITIALIZATION
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV SPARK_05
+
+U fleschindex%b		fleschindex.adb		e7896615 NE OO SU
+W ada%s			ada.ads			ada.ali
+W ada.characters%s	a-charac.ads		a-charac.ali
+W ada.characters.handling%s  a-chahan.adb	a-chahan.ali
+W ada.exceptions%s	a-except.adb		a-except.ali
+W ada.float_text_io%s	a-flteio.ads		a-flteio.ali
+W ada.integer_text_io%s	a-inteio.ads		a-inteio.ali
+W ada.strings%s		a-string.ads		a-string.ali
+W ada.strings.unbounded%s  a-strunb.adb		a-strunb.ali
+W ada.strings.unbounded.text_io%s  a-suteio.adb	a-suteio.ali
+W ada.tags%s		a-tags.adb		a-tags.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+W system.concat_2%s	s-conca2.adb		s-conca2.ali
+W system.img_int%s	s-imgint.adb		s-imgint.ali
+W system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+W system.soft_links%s	s-soflin.adb		s-soflin.ali
+W system.standard_library%s  s-stalib.adb	s-stalib.ali
+
+D ada.ads		20070406091342 3ffc8e18 ada%s
+D a-charac.ads		20070912115821 2d3ec45b ada.characters%s
+D a-chahan.ads		20140611123156 1601a50f ada.characters.handling%s
+D a-chlat1.ads		20140225151544 66457d31 ada.characters.latin_1%s
+D a-except.ads		20151016123252 291912d5 ada.exceptions%s
+D a-finali.ads		20151020095656 bf4f806b ada.finalization%s
+D a-flteio.ads		20070406091342 e18a47a0 ada.float_text_io%s
+D a-inteio.ads		20070406091342 f64b89a4 ada.integer_text_io%s
+D a-ioexce.ads		20140225151544 e4a01f64 ada.io_exceptions%s
+D a-stream.ads		20141120112812 119b8fb3 ada.streams%s
+D a-string.ads		20070406091342 90ac6797 ada.strings%s
+D a-strmap.ads		20140611123156 e8bb714a ada.strings.maps%s
+D a-strunb.ads		20140717072738 3f91d4c5 ada.strings.unbounded%s
+D a-suteio.ads		20090409150019 26d8e9aa ada.strings.unbounded.text_io%s
+D a-tags.ads		20151016130316 01f5e3ef ada.tags%s
+D a-textio.ads		20140717063745 386df5d4 ada.text_io%s
+D a-tiflio.ads		20140717063513 56fbda09 ada.text_io.float_io%s
+D a-tiinio.ads		20140717063513 aa04e5d6 ada.text_io.integer_io%s
+D a-unccon.ads		20070406091342 f9eb8f06 ada.unchecked_conversion%s
+D fleschindex.adb	20180408211606 c76dc5a5 fleschindex%b
+D interfac.ads		20151118101227 4be8ce1b interfaces%s
+D i-cstrea.ads		20140801100435 e53d8b8e interfaces.c_streams%s
+D system.ads		20151123113124 6326c08a system%s
+D s-atocou.ads		20151020101020 b45c2d8d system.atomic_counters%s
+D s-conca2.ads		20140225151544 02a0d7d0 system.concat_2%s
+D s-crtl.ads		20141120112812 0ebbdb71 system.crtl%s
+D s-exctab.ads		20140225151139 54135002 system.exception_table%s
+D s-ficobl.ads		20140718105747 078245e4 system.file_control_block%s
+D s-finmas.ads		20151016130316 7811a767 system.finalization_masters%s
+D s-finroo.ads		20120426095924 4ff27390 system.finalization_root%s
+D s-imgint.ads		20090409150019 02dbe0c2 system.img_int%s
+D s-memory.ads		20140225151139 597d6634 system.memory%s
+D s-parame.ads		20140801093848 7e2a0d7f system.parameters%s
+D s-secsta.ads		20140225151139 86a2856d system.secondary_stack%s
+D s-soflin.ads		20151020124036 14e1eb6c system.soft_links%s
+D s-stache.ads		20140225151139 a37c21ec system.stack_checking%s
+D s-stalib.ads		20151112104907 09bd3940 system.standard_library%s
+D s-stalib.adb		20140225151139 f2fe2716 system.standard_library%b
+D s-stoele.ads		20140225151139 2dc34a04 system.storage_elements%s
+D s-stopoo.ads		20131010103753 b16154c2 system.storage_pools%s
+D s-stposu.ads		20151020120548 97a6219c system.storage_pools.subpools%s
+D s-stratt.ads		20131014135145 aedef97e system.stream_attributes%s
+D s-traent.ads		20140730135025 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20140731130224 9d58a4c0 system.unsigned_types%s
+D s-wchcon.ads		20140718092328 1b7d22d2 system.wch_con%s
+X 1 ada.ads
+16K9*Ada 19e8 20|8r6 8r23 9r6 9r31 10r6 10r33 11r6 11r41 12r6 12r35 13r6
+. 13r29
+X 2 a-charac.ads
+16K13*Characters 18e19 20|12r10 12r39
+X 3 a-chahan.ads
+36K24*Handling 159e28 20|12w21 12r50
+X 7 a-flteio.ads
+20K13*Float_Text_IO[17|46] 20|13w10 13r33
+X 8 a-inteio.ads
+18K13*Integer_Text_IO[18|46] 20|9w10 9r35
+X 11 a-string.ads
+16K13*Strings 35e16 20|10r10 10r37 11r10 11r45
+X 13 a-strunb.ads
+76K21*Unbounded 489e26 20|10w18 10r45 11r18 11r53
+79R9*Unbounded_String<6|43R9> 473e14 20|15r15 16r11 25r44 34r72 48r66 144r64
+. 210r37 212r16
+84V13*Length{natural} 20|38s25 57s25 148s25
+100V13*To_String{string} 20|214s29
+139V13*Element{character} 20|40s16 40s42 40s68 40s94 40s120 61s20 61s47 64s23
+. 80s25 83s37 83s63 84s41 84s67 85s41 85s67 86s41 86s67 87s41 87s67 88s41
+. 88s67 91s51 91s77 93s51 93s79 93s107 93s135 93s163 93s191 93s219 95s51
+. 95s81 99s55 99s83 100s53 100s81 101s53 101s81 102s53 102s81 103s53 103s81
+. 104s53 104s81 109s57 109s83 111s56 111s84 112s60 112s88 114s56 115s60 115s88
+. 115s116 115s144 115s172 115s200 127s39 127s65 127s91 127s117 127s143 127s169
+. 127s195 127s221 151s20 151s47 154s23
+170V14*"="{boolean} 20|248s28
+X 14 a-suteio.ads
+39K31*Text_IO 61e34 20|11w28 11r63
+47U14*Get_Line 20|218s13
+50U14*Get_Line 20|30s9
+X 16 a-textio.ads
+49K13*Text_IO 471e16 20|8w10 8r27
+52P9*File_Type 20|211r16
+53n23*In_File{53E9} 20|214r20
+73I12*Field{integer}
+92U14*Open 20|214s9
+98U14*Close 20|223s9
+183V13*End_Of_File{boolean} 20|216s23
+242U14*Put 20|230s9 233s9
+263U14*Put_Line 20|29s9 225s9 226s9 227s9 228s9 229s9 232s9 235s9 236s9
+X 17 a-tiflio.ads
+68U14*Put 20|231s9[7|20] 234s9[7|20]
+70i7 Fore{16|73I12} 20|231r31[7|20] 234r80[7|20]
+71i7 Aft{16|73I12} 20|231r42[7|20] 234r91[7|20]
+72i7 Exp{16|73I12} 20|231r52[7|20] 234r100[7|20]
+X 20 fleschindex.adb
+14U11*fleschIndex 14b11 253l5 253t16
+15r5 fileName{13|79R9} 245m21 245r21 248r19 251r18
+16r5 line{13|79R9}
+17i5 sentenceCount{integer} 219m30 219r30 224m30 224r30 227r53 234r41 237m9
+18i5 vowelCount{integer} 221m27 221r27 224m45 224r45 228r53 234r67 239m9
+19i5 wordCount{integer} 220m26 220r26 224m57 224r57 229r49 234r56 238m9
+20f5 fleschIndexFinal{float} 224m68 224r68 231r13
+21f5 wordDivSentence{float} 176m9 179r51 203m9 206r22
+22f5 vowelDivWord{float} 177m9 179r80 204m9 206r46
+23f5 fleschKincaidLevel{float}
+25U15 getFileName 25b15 25=27 32l9 32t20 245s9
+25r27 fileName{13|79R9} 30m18
+34U15 getSentenceCount 34b15 34=32 34>63 46l9 46t25 219s13
+34i32 sentenceCount{integer} 41m17 41r34
+34r63 line{13|79R9} 38r32 40r24 40r50 40r76 40r102 40r128
+35i9 stringLength{integer} 38m9 44r27
+36i9 i{integer} 40r30 40r56 40r82 40r108 40r134 43m13 43r18 44r23
+48U15 getVowelCount 48b15 48=29 48>57 142l9 142t22 221s13
+48i29 vowelCount{integer} 63m21 63r35 66m21 66r35 134m25 134r39
+48r57 line{13|79R9} 57r32 61r28 61r55 64r31 80r33 83r45 83r71 84r49 84r75
+. 85r49 85r75 86r49 86r75 87r49 87r75 88r49 88r75 91r59 91r85 93r59 93r87
+. 93r115 93r143 93r171 93r199 93r227 95r59 95r89 99r63 99r91 100r61 100r89
+. 101r61 101r89 102r61 102r89 103r61 103r89 104r61 104r89 109r65 109r91 111r64
+. 111r92 112r68 112r96 114r64 115r68 115r96 115r124 115r152 115r180 115r208
+. 127r47 127r73 127r99 127r125 127r151 127r177 127r203 127r229
+49i9 stringLength{integer} 57m9 60r23 64r58 70r27 79r21 89r52 93r255 107r62
+. 114r90 127r252 138r28
+50i9 i{integer} 60r16 61r34 61r61 64r37 64r52 69m13 69r18 70r23 74m9 79r16
+. 80r39 81r30 138r23 139m17 139r22
+51i9 j{integer} 81m25 83r51 83r77 84r55 84r81 85r55 85r81 86r55 86r81 87r55
+. 87r81 88r55 88r81 89r45 91r65 91r91 93r65 93r93 93r121 93r149 93r177 93r205
+. 93r233 93r249 95r65 95r95 99r69 99r97 100r67 100r95 101r67 101r95 102r67
+. 102r95 103r67 103r95 104r67 104r95 107r55 109r71 109r97 111r70 111r98 112r74
+. 112r102 114r70 114r84 115r74 115r102 115r130 115r158 115r186 115r214 127r53
+. 127r79 127r105 127r131 127r157 127r183 127r209 127r235 127r247 128m29 128r34
+52i9 letterCount{integer}
+53i9 vowelTempCount{integer}
+54i9 vowelFlag{integer} 122m49 122r62 133r24 134r52 136m21
+55b9 doNothing{boolean} 98m53 106m53 117m57 121r52 126m29
+144U15 getWordCount 144b15 144=28 144>55 162l9 162t21 220s13
+144i28 wordCount{integer} 153m21 153r34 156m21 156r34
+144r55 line{13|79R9} 148r32 151r28 151r55 154r31
+145i9 stringLength{integer} 148m9 150r23 154r59 160r27
+146i9 i{integer} 150r16 151r34 151r61 154r37 154r53 159m13 159r18 160r23
+164U15 calculateFleschIndex 164b15 164=36 164=67 164=95 164=122 181l9 181t29
+. 224s9
+164i36 sentenceCount{integer} 167r12 168m13 176r52
+164i67 vowelCount{integer} 169r15 170m13 177r32
+164i95 wordCount{integer} 171r15 172m13 176r35 177r50
+164f122 fleschIndexFinal{float} 179m9
+183V14 calculateFleschKincaidLevel{float} 183b14 183>42 183>66 183>86 208l9
+. 208t36 234s13
+183i42 sentenceCount{integer} 190r30
+183i66 wordCount{integer} 192r26
+183i86 vowelCount{integer} 191r27
+184f9 r{float} 206m9 207r16
+185i9 sentenceCountTemp{integer} 190m9 194r12 195m13 203r56
+186i9 vowelCountTemp{integer} 191m9 196r15 197m13 204r32
+187i9 wordCountTemp{integer} 192m9 198r15 199m13 203r35 204r54
+210U15 readFile 210b15 210>24 240l9 240t17 251s9
+210r24 fileName{13|79R9} 214r39
+211p9 infp{16|52P9} 214m14 214r14 216r35 218r22 223m15 223r15
+212r9 line{13|79R9} 218m27 219r44 220r37 221r39
+X 23 system.ads
+67M9*Address
+X 32 s-memory.ads
+53V13*Alloc{23|67M9} 103i<c,__gnat_malloc>22
+68U14*Free 104i<c,__gnat_free>22
+76V13*Realloc{23|67M9} 105i<c,__gnat_realloc>22
+X 38 s-stalib.adb
+93U14 Break_Start 94i<c,__gnat_break_start>22
+
